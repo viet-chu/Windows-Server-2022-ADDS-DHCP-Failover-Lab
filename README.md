@@ -30,35 +30,17 @@ Triển khai hệ thống Windows Server 2022 trong môi trường on-premises, 
 - Cấu hình máy chủ dự phòng Domain Controller
 - Quản lí từ xa với RSAT
 - Giảm bề mặt tấn công và giảm chi phí tài nguyên hệ thống
-## 👥 User & Permission Management
-- Organizational Units (OU) per department
-- Group-based permission model
-- Home Folder for users
-- NTFS permissions applied according to group roles
+## Quản lí người dùng và quyền
+- Organizational Units (OU), Group, User
+- Home Folder cho các users
+- Share và NTFS
 
----
-
-## ✅ Testing & Validation
-- Verified AD & DNS replication
-- Tested DHCP Failover by shutting down DC01
-- Verified domain login from client machines
-- Confirmed correct access control and folder permissions
-
----
-
-## 📈 Future Enhancements (Roadmap)
+## Hướng phát triển trong tương lai
 - DFS Namespace & Replication
 - Backup & Disaster Recovery
 - WSUS deployment
-- Hybrid Active Directory (Azure AD integration)
+- Hybrid Active Directory (Azure AD)
 
----
-
-## 📄 Documentation
-Detailed step-by-step documentation and screenshots are included in this repository to demonstrate the implementation and testing process.
-
----
-
-## 👤 Author
-**[Your Name]**  
-Final-year student – Aspiring System Administrator
+## Người làm dự án
+- Chu Trọng Việt
+Sinh viên năm cuối - Trường Đại Học Xây Dựng Hà Nội
